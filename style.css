@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'manrope';
+    src: url('fonts/Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'manrope_semibold';
+    src: url('fonts/Manrope-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'manrope_bold';
+    src: url('fonts/Manrope-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'manrope_extrabold';
+    src: url('fonts/Manrope-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #0e1019;
+  color: #dedede;
+  font-family: 'manrope'
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'manrope_extrabold'
+}
+
+h2 {
+  font-size: 45px;
+  font-family: 'manrope_bold'
+}
+
+h3 {
+  font-size: 37px;
+  font-family: 'manrope_bold';
+  margin-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 20px
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'manrope_semibold';
+  font-weight: bold;
+  margin-left: 55px
+}
+
+h5 {
+  color: #ffffff00;
+  margin-top: -2%;
+  margin-bottom: -1%;
+  font-family: 'manrope_semibold';
+  padding: 0px;
+  transition-duration: 0.5s;
+}
+
+h5:hover {
+  color: #dedede;
+  cursor: pointer;
+}
+
+.return {
+  color: #dedede !important;
+}
+
+a {
+  color: #ffffff00;
+  margin-top: -2%;
+  margin-bottom: -1%;
+  font-family: 'manrope_semibold';
+  padding: 0px;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  color: #dedede;
+  cursor: pointer;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 65px;
+  margin-right: 200px;
+  transition-duration: 1s;
+}
+
+p:hover {
+  font-size: 25px;
+  padding-top: 0.5%
+}
+
+.header {
+  color: #dedede;
+  border: 10px solid #dedede;
+  background-color: #dedede05;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  transition-duration: 0.3s;
+}
+
+.header:hover {
+  background-color: #dedede10;
+  color: #cecece;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 1%;
+  transition-duration: 0.7s;
+}
+
+.topic {
+  opacity: 0.15;
+  transition: all 2s ease-in-out;
+}
+
+.topic:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.greek {
+  background-image:
+  radial-gradient(circle, rgba(14,16,25,0.52) 0%, rgba(14,16,25,1) 85%),
+  linear-gradient(0deg, rgba(14,16,25,1) 0%, rgba(14,16,25,0) 50%, rgba(14,16,25,1) 100%),
+  url('img/athens.png');
+  opacity: 0.15 !important;
+  transition: all 1s ease-in-out;
+}
+
+.greek:hover {
+  opacity: 1 !important;
+  transition-duration: 0.5s;
+}
+
+.american {
+  background-image:
+  radial-gradient(circle, rgba(14,16,25,0.52) 0%, rgba(14,16,25,1) 85%),
+  linear-gradient(0deg, rgba(14,16,25,1) 0%, rgba(14,16,25,0) 50%, rgba(14,16,25,1) 100%),
+  url('img/usa.png');
+  opacity: 0.15 !important;
+  transition: all 1s ease-in-out;
+}
+
+.american:hover {
+  opacity: 1 !important;
+  transition-duration: 0.5s;
+}
